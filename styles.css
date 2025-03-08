@@ -109,6 +109,21 @@ h4 {
   color: var(--font-color);
 }
 
+#welcome-section h2 {
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+  gap: 1rem;
+}
+.profile-image,
+.profile-image img {
+  width: 100%;
+  border-radius: 5%;
+}
+
 h1 {
   font-size: 2.5rem;
 }
@@ -171,6 +186,10 @@ a:hover {
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.project-tile img {
+  width: 100%;
+  border-radius: 15px;
+}
 
 .project-tile:hover {
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.8);
@@ -187,15 +206,20 @@ a:hover {
   color: var(--font-color);
 }
 
-.project-tile a {
+.project-tile .external-links {
   margin-top: 1rem;
-  display: inline-block;
-  padding: 0.5rem 1.5rem;
-  background-color: var(--link-color);
-  color: #fff;
-  border-radius: 5px;
-  font-weight: bold;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.project-tile .external-links a {
+  width: 40%;
   text-align: center;
+  font-size: 1rem;
+  padding: 1em;
+  background-color: var(--link-color);
+  color: var(--font-color);
+  border-radius: 5%;
 }
 
 .project-tile a:hover {
@@ -240,6 +264,10 @@ footer p {
   font-size: 1rem;
   color: var(--footer-text-color);
   margin-top: 1rem;
+}
+
+.description-container li {
+  list-style: none;
 }
 
 /* Responsive design */
