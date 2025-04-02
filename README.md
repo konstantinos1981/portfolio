@@ -30,7 +30,7 @@ Welcome to my personal portfolio website! This project showcases my journey in w
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/portfolio.git
+   git clone https://github.com/konstantinos1981/portfolio.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -49,4 +49,3 @@ Feel free to modify the styles in `styles.css` to personalize the design. You ca
 ---
 
 **© 2025 Konstantinos Georgiou. All rights reserved.**
-
